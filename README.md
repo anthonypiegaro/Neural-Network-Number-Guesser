@@ -29,4 +29,16 @@ For this project, there a few dependencies that will be needed in order for the 
 pip3 install -r requirements.txt
 ```
 You now should have all the dependencies downloaded and ready to go.
-### 
+### Running Flask
+The app is ran with [Flask](https://flask.palletsprojects.com/en/2.2.x/). To start the app, you run the following in the command line:
+```
+flask run
+```
+The apps default port is 5000. This going to the following:
+```
+http://localhost:5000/
+```
+Now, you have a running app and can use the UI to draw numbers for the model to guess.
+
+## Thank you
+I hope you enjoy!
